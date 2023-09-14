@@ -1,3 +1,4 @@
+import 'cypress-mochawesome-reporter/register';
 import registerPage from "../support/PageObject/registerPage.cy"
 const registerData = require("../fixtures/register/register.json")
 

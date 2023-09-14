@@ -4,11 +4,15 @@
   "description": "Quiz week 2 automation testing demo web shop",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run --browser chrome --spec 'cypress/e2e/*'",
+    "smokeTesting": "",
+    "regressionTesting": "",
+    "generateReport": "npx cypress run --browser chrome --spec 'cypress/e2e/*' --reporter junit --reporter-options 'mochaFile=reports/TEST-[hash].xml'"
   },
   "author": "Sandi Hidayat",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.2.0"
+    "cypress": "^13.2.0",
+    "cypress-mochawesome-reporter": "^3.6.0"
   }
 }

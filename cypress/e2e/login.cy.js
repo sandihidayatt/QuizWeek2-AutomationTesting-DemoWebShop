@@ -1,3 +1,4 @@
+import 'cypress-mochawesome-reporter/register';
 import loginPage from "../support/PageObject/loginPage.cy"
 const loginData = require("../fixtures/login/login.json")
 
