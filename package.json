@@ -1,0 +1,14 @@
+{
+  "name": "quizweek2cypress",
+  "version": "1.0.0",
+  "description": "Quiz week 2 automation testing demo web shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sandi Hidayat",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.2.0"
+  }
+}
