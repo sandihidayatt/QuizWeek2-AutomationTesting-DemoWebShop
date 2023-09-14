@@ -12,6 +12,11 @@ Cypress.Commands.add('menuLogin', () => {
     cy.get('.ico-login').click()
 })
 
+Cypress.Commands.add('menuRegister', () => {
+    cy.visit('https://demowebshop.tricentis.com/')
+    cy.get('.ico-register').click()
+})
+
 Cypress.Commands.add('login', () => {
     cy.visit('https://demowebshop.tricentis.com/')
     cy.get('.ico-login').click()

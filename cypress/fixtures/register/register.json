@@ -1,0 +1,8 @@
+{
+    "firstName" : "Sandi",
+    "lastName" : "Hidayat",
+    "validPassword": "12345S@ndi",
+    "invalidPassword" : "54321S@ndi",
+    "invalidFormatPassword" : "123",
+    "invalidFormatEmail" : "sandihidayat175gmail.com"
+}
